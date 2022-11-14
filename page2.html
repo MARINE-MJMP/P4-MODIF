@@ -1,35 +1,32 @@
 <!DOCTYPE html>
-<html lang="Default">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <meta name="keywords" content="" />
     <meta
       name="description"
-      content="L'agence La Panthère est une agence de web design qui aide les
-	entreprises à devenir attractives et visibles sur Internet."
+      content="L'agence de Web design La Panthère proposent des services aux entreprises Lyonnaise qui souhaitent attirer de nouveaux clients ! De la création ou au rafraîchissement de votre site, nos équipes travaillent sur l'amélioration stratégique et graphique."
     />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
+    <code><meta name="robots" content="index, follow" /></code>
+    <meta
+      name="google-site-verification"
+      content="jbRFGldnosW0eTDgiHpIsHK2_iM43ciDI3cSMmr0Wmc"
+    />
+
     <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
 
+    <!-- modification href retrait "min"-->
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/et-line.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
 
-    <script src="./js/jquery-2.1.0.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/blocs.min.js"></script>
-    <script src="./js/jqBootstrapValidation.js"></script>
-    <script src="./js/formHandler.js"></script>
-    <title>La Panthère - Contact</title>
-
-    <!-- Analytics -->
-
-    <!-- Analytics END -->
+    <title>Contact - L'agence La Panthère</title>
   </head>
+
   <body>
     <!-- Principal conteneur -->
     <div class="page-container">
@@ -41,7 +38,7 @@
               <a class="navbar-brand" href="index.html"
                 ><img
                   src="img/agence-la-panthere-monochrome.svg"
-                  alt="atlanta web design logo"
+                  alt="logo noir et blanc agence La Panthère "
                   height="40"
               /></a>
               <button
@@ -61,7 +58,6 @@
                 <li>
                   <a href="index.html">Accueil</a>
                 </li>
-                <li></li>
                 <li>
                   <a href="page2.html">Contact</a>
                 </li>
@@ -74,16 +70,14 @@
 
       <!-- bloc-6 -->
       <div
-        class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper"
+        class="bloc bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture"
         id="bloc-6"
       >
         <div class="container bloc-lg">
           <div class="row">
             <div class="col-sm-12">
-              <h1 class="text-center hero-bloc-text tc-white">
-                Parlons web design !
-              </h1>
-              <p class="text-center mg-lg tc-white tight-width-whitespace">
+              <h1 class="text-center hero-bloc-text">Parlons web design !</h1>
+              <p class="text-center mg-lg tight-width-whitespace">
                 Nous sommes ravis que vous souhaitiez collaborer avec notre
                 agence.<br />
                 Parlez-nous de votre projet en complétant le formulaire
@@ -107,11 +101,11 @@
                 fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
               >
                 <div class="form-group">
-                  <label> Nom </label>
+                  <label for="name"> Nom </label>
                   <input id="name" class="form-control" required />
                 </div>
                 <div class="form-group">
-                  <label> Adresse email </label>
+                  <label for="email"> Adresse email </label>
                   <input
                     id="email"
                     class="form-control"
@@ -120,7 +114,9 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label> Comment nous avez-vous connu ? </label>
+                  <label for="input_504">
+                    Comment nous avez-vous connu ?
+                  </label>
                   <input
                     class="form-control"
                     type="email"
@@ -129,7 +125,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label>
+                  <label for="message">
                     Brief de votre projet (Ajoutez autant de détails que
                     nécessaire)<br /> </label
                   ><textarea
@@ -148,7 +144,7 @@
                 </button>
               </form>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 text-center bloc-lg">
               <p>
                 contact@agencelapanthere.com<br />2 place Sathonay 69001 Lyon<br />Ouvert
                 de 9h à 18h, du lundi au vendredi<br />
@@ -160,7 +156,10 @@
       <!-- bloc-7 END -->
 
       <!-- ScrollToTop Button -->
-      <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"
+      <a
+        role="button"
+        class="bloc-button btn btn-d scrollToTop"
+        onclick="scrollToTarget('1')"
         ><span class="fa fa-chevron-up"></span
       ></a>
       <!-- ScrollToTop Button END-->
@@ -170,34 +169,47 @@
         <div class="container bloc-sm">
           <div class="row">
             <div class="col-sm-12">
-              <p class="text-center white">
+              <!-- modification retrait white pour modification color contrast -->
+              <p class="text-center">
                 Agence La Panthère - Agence web basée à Lyon.<br />
               </p>
               <div class="row row-no-gutters social">
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="https://twitter.com/"
+                    <a
+                      class="social"
+                      aria-label="Twitter"
+                      href="http://www.twitter.fr/"
                       ><span class="fa fa-twitter icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="https://www.facebook.com"
+                    <a
+                      class="social"
+                      aria-label="Facebook"
+                      href="https://fr-fr.facebook.com"
                       ><span class="fa fa-facebook icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="https://dribbble.com/"
+                    <a
+                      class="social"
+                      aria-label="Dribble"
+                      href="https://dribble.com"
                       ><span class="fa fa-dribbble icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="https://instagram.com/"
+                    <a
+                      class="social"
+                      aria-label="Instagram"
+                      href="https://www.instagram.com"
                       ><span class="fa fa-instagram icon-md"></span
                     ></a>
                   </div>
@@ -210,5 +222,10 @@
       <!-- Footer - bloc-8 END -->
     </div>
     <!-- Principal conteneur END -->
+
+    <script src="./js/jquery-2.1.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/blocs.min.js"></script>
+    <script src="./js/jquery.touchSwipe.js" defer></script>
   </body>
 </html>
