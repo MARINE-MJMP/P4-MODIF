@@ -331,7 +331,9 @@ a:hover {
   text-align: inherit;
 }
 
-.nav > li a:hover,
+.nav > li a:hover {
+  background: transparent;
+}
 .nav > li a:focus {
   background: transparent;
   border: 1px solid black;

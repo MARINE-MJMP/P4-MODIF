@@ -3469,6 +3469,7 @@ textarea.input-lg {
   border-color: #2b542c;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+  border: 1px solid black;
 }
 
 .has-success .input-group-addon {
@@ -3504,6 +3505,7 @@ textarea.input-lg {
   border-color: #66512c;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+  border: 1px solid black;
 }
 
 .has-warning .input-group-addon {
@@ -3539,6 +3541,7 @@ textarea.input-lg {
   border-color: #843534;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+  border: 1px solid black;
 }
 
 .has-error .input-group-addon {
@@ -3693,6 +3696,8 @@ textarea.input-lg {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
+
+  border: 1px solid black;
 }
 
 .btn.focus,
@@ -3700,6 +3705,8 @@ textarea.input-lg {
 .btn:hover {
   color: #333;
   text-decoration: none;
+
+  border: 1px solid black;
 }
 
 .btn.active,
@@ -3736,6 +3743,8 @@ fieldset[disabled] a.btn {
   color: #333;
   background-color: #e6e6e6;
   border-color: #8c8c8c;
+
+  border: 1px solid black;
 }
 
 .btn-default:hover {
@@ -3764,6 +3773,8 @@ fieldset[disabled] a.btn {
   color: #333;
   background-color: #d4d4d4;
   border-color: #8c8c8c;
+
+  border: 1px solid black;
 }
 
 .btn-default.active,
@@ -3792,6 +3803,7 @@ fieldset[disabled] .btn-default:focus,
 fieldset[disabled] .btn-default:hover {
   background-color: #fff;
   border-color: #ccc;
+  border: 1px solid black;
 }
 
 .btn-default .badge {
@@ -3810,6 +3822,7 @@ fieldset[disabled] .btn-default:hover {
   color: #fff;
   background-color: #286090;
   border-color: #122b40;
+  border: 1px solid black;
 }
 
 .btn-primary:hover {
@@ -3838,6 +3851,7 @@ fieldset[disabled] .btn-default:hover {
   color: #fff;
   background-color: #204d74;
   border-color: #122b40;
+  border: 1px solid black;
 }
 
 .btn-primary.active,
@@ -3866,6 +3880,7 @@ fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary:hover {
   background-color: #337ab7;
   border-color: #2e6da4;
+  border: 1px solid black;
 }
 
 .btn-primary .badge {
@@ -3884,6 +3899,7 @@ fieldset[disabled] .btn-primary:hover {
   color: #fff;
   background-color: #449d44;
   border-color: #255625;
+  border: 1px solid black;
 }
 
 .btn-success:hover {
@@ -3912,6 +3928,7 @@ fieldset[disabled] .btn-primary:hover {
   color: #fff;
   background-color: #398439;
   border-color: #255625;
+  border: 1px solid black;
 }
 
 .btn-success.active,
@@ -3940,6 +3957,7 @@ fieldset[disabled] .btn-success:focus,
 fieldset[disabled] .btn-success:hover {
   background-color: #5cb85c;
   border-color: #4cae4c;
+  border: 1px solid black;
 }
 
 .btn-success .badge {
@@ -3958,6 +3976,7 @@ fieldset[disabled] .btn-success:hover {
   color: #fff;
   background-color: #31b0d5;
   border-color: #1b6d85;
+  border: 1px solid black;
 }
 
 .btn-info:hover {
@@ -3986,6 +4005,7 @@ fieldset[disabled] .btn-success:hover {
   color: #fff;
   background-color: #269abc;
   border-color: #1b6d85;
+  border: 1px solid black;
 }
 
 .btn-info.active,
@@ -4014,6 +4034,7 @@ fieldset[disabled] .btn-info:focus,
 fieldset[disabled] .btn-info:hover {
   background-color: #5bc0de;
   border-color: #46b8da;
+  border: 1px solid black;
 }
 
 .btn-info .badge {
@@ -4032,6 +4053,7 @@ fieldset[disabled] .btn-info:hover {
   color: #fff;
   background-color: #ec971f;
   border-color: #985f0d;
+  border: 1px solid black;
 }
 
 .btn-warning:hover {
@@ -4060,6 +4082,7 @@ fieldset[disabled] .btn-info:hover {
   color: #fff;
   background-color: #d58512;
   border-color: #985f0d;
+  border: 1px solid black;
 }
 
 .btn-warning.active,
@@ -4088,6 +4111,7 @@ fieldset[disabled] .btn-warning:focus,
 fieldset[disabled] .btn-warning:hover {
   background-color: #f0ad4e;
   border-color: #eea236;
+  border: 1px solid black;
 }
 
 .btn-warning .badge {
@@ -4106,6 +4130,7 @@ fieldset[disabled] .btn-warning:hover {
   color: #fff;
   background-color: #c9302c;
   border-color: #761c19;
+  border: 1px solid black;
 }
 
 .btn-danger:hover {
@@ -4134,6 +4159,7 @@ fieldset[disabled] .btn-warning:hover {
   color: #fff;
   background-color: #ac2925;
   border-color: #761c19;
+  border: 1px solid black;
 }
 
 .btn-danger.active,
@@ -4162,6 +4188,7 @@ fieldset[disabled] .btn-danger:focus,
 fieldset[disabled] .btn-danger:hover {
   background-color: #d9534f;
   border-color: #d43f3a;
+  border: 1px solid black;
 }
 
 .btn-danger .badge {
@@ -4190,6 +4217,7 @@ fieldset[disabled] .btn-link {
 .btn-link:focus,
 .btn-link:hover {
   border-color: transparent;
+  border: 1px solid black;
 }
 
 .btn-link:focus,
@@ -4197,6 +4225,7 @@ fieldset[disabled] .btn-link {
   color: #23527c;
   text-decoration: underline;
   background-color: transparent;
+  border: 1px solid black;
 }
 
 .btn-link[disabled]:focus,
@@ -4205,6 +4234,7 @@ fieldset[disabled] .btn-link:focus,
 fieldset[disabled] .btn-link:hover {
   color: #777;
   text-decoration: none;
+  border: 1px solid black;
 }
 
 .btn-group-lg > .btn,
@@ -4307,6 +4337,7 @@ tbody.collapse.in {
 
 .dropdown-toggle:focus {
   outline: 0;
+  border: 1px solid black;
 }
 
 .dropdown-menu {
@@ -4359,6 +4390,7 @@ tbody.collapse.in {
   color: #262626;
   text-decoration: none;
   background-color: #f5f5f5;
+  border: 1px solid black;
 }
 
 .dropdown-menu > .active > a,
@@ -4368,12 +4400,14 @@ tbody.collapse.in {
   text-decoration: none;
   background-color: #337ab7;
   outline: 0;
+  border: 1px solid black;
 }
 
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:focus,
 .dropdown-menu > .disabled > a:hover {
   color: #777;
+  border: 1px solid black;
 }
 .dropdown-menu > .disabled > a:focus,
 .dropdown-menu > .disabled > a:hover {
@@ -4381,6 +4415,7 @@ tbody.collapse.in {
   cursor: not-allowed;
   background-color: transparent;
   background-image: none;
+  border: 1px solid black;
 }
 
 .open > .dropdown-menu {
@@ -4472,6 +4507,7 @@ tbody.collapse.in {
 .btn-group > .btn:focus,
 .btn-group > .btn:hover {
   z-index: 2;
+  border: 1px solid black;
 }
 
 .btn-group .btn + .btn,
@@ -4828,6 +4864,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .input-group-btn > .btn:focus,
 .input-group-btn > .btn:hover {
   z-index: 2;
+  border: 1px solid black;
 }
 
 .input-group-btn:first-child > .btn,
@@ -4862,6 +4899,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover {
   text-decoration: none;
   background-color: #eee;
+  border: 1px solid black;
 }
 
 .nav > li.disabled > a {
@@ -4874,6 +4912,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   text-decoration: none;
   cursor: not-allowed;
   background-color: transparent;
+  border: 1px solid black;
 }
 
 .nav .open > a,
@@ -4881,6 +4920,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover {
   background-color: #eee;
   border-color: #337ab7;
+  border: 1px solid black;
 }
 
 .nav .nav-divider {
@@ -4922,6 +4962,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background-color: #fff;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
+  border: 1px solid black;
 }
 
 .nav-tabs.nav-justified {
@@ -4962,6 +5003,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-tabs.nav-justified > .active > a:focus,
 .nav-tabs.nav-justified > .active > a:hover {
   border: 1px solid #ddd;
+  border: 1px solid black;
 }
 
 @media (min-width: 768px) {
@@ -4973,6 +5015,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .nav-tabs.nav-justified > .active > a:focus,
   .nav-tabs.nav-justified > .active > a:hover {
     border-bottom-color: #fff;
+    border: 1px solid black;
   }
 }
 
@@ -4993,6 +5036,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover {
   color: #fff;
   background-color: #337ab7;
+  border: 1px solid black;
 }
 
 .nav-stacked > li {
@@ -5045,6 +5089,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-tabs-justified > .active > a:focus,
 .nav-tabs-justified > .active > a:hover {
   border: 1px solid #ddd;
+  border: 1px solid black;
 }
 
 @media (min-width: 768px) {
@@ -5056,6 +5101,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .nav-tabs-justified > .active > a:focus,
   .nav-tabs-justified > .active > a:hover {
     border-bottom-color: #fff;
+    border: 1px solid black;
   }
 }
 
